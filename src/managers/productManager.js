@@ -1,15 +1,16 @@
-const fs = require('promises/fs');
-const uuid = require('v4/uuid');
+import { promises as fs } from 'fs';
+import { v4 as uuidv4 } from 'uuid';
 
-export class ProductManager {
+export default class ProductManager {
 
     constructor() {
-        this.path = 'products.json';
+        this.path = '../src/products.json';
         this.products = [];
     }
 
     addProduct = async ({ nombre, categoria, memoria, stock, precio, img, code }) => {
-        const id = uuid();
+
+        const id = uuidv4();
 
         let newProduct = { id, nombre, categoria, memoria, stock, precio, img, code }
 
@@ -30,11 +31,10 @@ export class ProductManager {
         return responseJSON;;
     }
 
-    getProductById = async () => {
-        const response = this.getProducts();
+    getProductById = async (id) => {
+        const response = await this.getProducts();
 
-        const product = response.find(prod => prod.id === id);
-
+        const product = response.find((prod) => prod.id === id);
         if (product) {
             return product;
         } else {
@@ -43,21 +43,21 @@ export class ProductManager {
     }
 
     updateProduct = async (id, { ...data }) => {
-        const products = this.getProducts();
 
+        const products = await this.getProducts();
         const index = products.findIndex(prod => prod.id === id);
 
         if (index !== -1) {
             products[index] = { id, ...data }
             await fs.writeFile(this.path, JSON.stringify(products));
-            return reponse[index]
+            return products[index]
         } else {
             console.log('Producto no encontrado');
         }
     }
 
     deleteproduct = async (id) => {
-        const products = this.getProducts();
+        const products = await this.getProducts();
         const index = products.findIndex(prod => prod.id === id);
 
         if (index !== -1) {

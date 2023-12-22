@@ -1,15 +1,15 @@
-const express = require('express');
-const ProductManager = require('./managers/productManager.js');
-const productsRouter = require('./routes/products.router.js')
+import Express from 'express';
+import  ProductManager  from './managers/productManager.js';
+import { productsRouter } from './routes/products.router.js';
 
-const app = express();
+const app = Express();
 
 const port = 8080;
 
 export const productManager = new ProductManager;
 
-app.use(express.json());
-app.use('/products', productsRouter);
+app.use(Express.json());
+app.use('/api/products', productsRouter);
 
 app.listen(port, (req, res) => {
     console.log(`Servidor escuchando en puerto ${port}`);

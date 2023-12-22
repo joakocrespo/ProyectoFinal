@@ -1,0 +1,322 @@
+[
+    {
+        "nombre": "iPhone 13",
+        "categoria": "iPhone",
+        "memoria": "128GB",
+        "stock": 10,
+        "precio": 999.99,
+        "imagen": "https://tecnotiendadigital.com/wp-content/uploads/iPHONE-13.jpg",
+        "code": "iphncd9841",
+        "id": "1"
+    },
+    {
+        "nombre": "iPhone 13 Pro",
+        "categoria": "iPhone",
+        "memoria": "256GB",
+        "stock": 8,
+        "precio": 1199.99,
+        "imagen": "https://cdn-ipoint.waugi.com.ar/22532-large_default/iphone-13-pro-128gb-gold.jpg",
+        "code": "iphncd9842",
+        "id": "2"
+    },
+    {
+        "nombre": "iPhone SE",
+        "categoria": "iPhone",
+        "memoria": "64GB",
+        "stock": 12,
+        "precio": 399.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_838939-MLA69244626562_052023-O.webp",
+        "code": "iphncd9843",
+        "id": "3"
+    },
+    {
+        "nombre": "MacBook Air",
+        "categoria": "Mac",
+        "memoria": "256GB",
+        "stock": 9,
+        "precio": 1299.99,
+        "imagen": "https://www.ventasrosario.com.ar/wp-content/uploads/2023/06/macbook-air-nuevo-apple-15-pulgadas-647e1748844f5.jpg",
+        "code": "iphncd9844",
+        "id": "4"
+    },
+    {
+        "nombre": "MacBook Pro",
+        "categoria": "Mac",
+        "memoria": "512GB",
+        "stock": 7,
+        "precio": 1999.99,
+        "imagen": "https://www.macstation.com.ar/img/productos/3011-mnej3le-a.jpg",
+        "code": "iphncd9845",
+        "id": "5"
+    },
+    {
+        "nombre": "iMac",
+        "categoria": "Mac",
+        "memoria": "1TB",
+        "stock": 11,
+        "precio": 1499.99,
+        "imagen": "https://celutronic.com/wp-content/uploads/2017/09/1000207165_x2-1.jpg",
+        "code": "iphncd9846",
+        "id": "6"
+    },
+    {
+        "nombre": "iPad Pro",
+        "categoria": "iPad",
+        "memoria": "256GB",
+        "stock": 10,
+        "precio": 799.99,
+        "imagen": "https://www.macstation.com.ar/img/productos/2433-2427-1.jpg",
+        "code": "iphncd9847",
+        "id": "7"
+    },
+    {
+        "nombre": "iPad Mini",
+        "categoria": "iPad",
+        "memoria": "128GB",
+        "stock": 6,
+        "precio": 499.99,
+        "imagen": "https://www.venex.com.ar/products_images/1646333719_sfdfdf.png",
+        "code": "iphncd9848",
+        "id": "8"
+    },
+    {
+        "nombre": "iPad Air",
+        "categoria": "iPad",
+        "memoria": "64GB",
+        "stock": 12,
+        "precio": 599.99,
+        "imagen": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1666889415-ipad-mini-select-202109.jpg?crop=1xw:1xh;center,top&resize=980:*",
+        "code": "iphncd9849",
+        "id": "9"
+    },
+    {
+        "nombre": "Apple Watch Series 7",
+        "categoria": "Watch",
+        "memoria": "32GB",
+        "stock": 8,
+        "precio": 349.99,
+        "imagen": "https://www.macstation.com.ar/img/productos/2779-apple-watch-series-7-gps-cell-41mm-al-green-green.jpg",
+        "code": "iphncd9850",
+        "id": "10"
+    },
+    {
+        "nombre": "Apple Watch SE",
+        "categoria": "Watch",
+        "memoria": "16GB",
+        "stock": 9,
+        "precio": 249.99,
+        "imagen": "https://d2ihpvt6nd5q28.cloudfront.net/wp-content/uploads/2023/03/WATCHSE-BLANCO1.jpeg",
+        "code": "iphncd9851",
+        "id": "11"
+    },
+    {
+        "nombre": "Apple Watch Series 6",
+        "categoria": "Watch",
+        "memoria": "32GB",
+        "stock": 10,
+        "precio": 299.99,
+        "imagen": "https://rconline.com.ar/wp-content/uploads/2021/01/MTP62_VW_PFwatch-40-alum-spacegray-nc-6s_VW_PF_WF_CO.jpg",
+        "code": "iphncd9852",
+        "id": "12"
+    },
+    {
+        "nombre": "iPhone 12",
+        "categoria": "iPhone",
+        "memoria": "128GB",
+        "stock": 7,
+        "precio": 899.99,
+        "imagen": "https://hips.hearstapps.com/hmg-prod/images/iphone-12-precio-cuando-sale-1603461622.jpg?crop=0.718xw:1.00xh;0.0962xw,0&resize=1200:*",
+        "code": "iphncd9853",
+        "id": "13"
+    },
+    {
+        "nombre": "iPhone 12 Pro",
+        "categoria": "iPhone",
+        "memoria": "256GB",
+        "stock": 6,
+        "precio": 1099.99,
+        "imagen": "https://tecnotiendadigital.com/wp-content/uploads/12-pro-600x600.jpg",
+        "code": "iphncd9854",
+        "id": "14"
+    },
+    {
+        "nombre": "iPhone XR",
+        "categoria": "iPhone",
+        "memoria": "64GB",
+        "stock": 5,
+        "precio": 599.99,
+        "imagen": "https://www.tradeinn.com/f/13735/137354144/apple-iphone-xr-64gb-6.1.jpg",
+        "code": "iphncd9855",
+        "id": "15"
+    },
+    {
+        "nombre": "MacBook Pro M1",
+        "categoria": "Mac",
+        "memoria": "512GB",
+        "stock": 8,
+        "precio": 1799.99,
+        "imagen": "https://innovatech.ar/wp-content/uploads/2021/08/Teknofilo-Image-064-1280x717-1.jpg",
+        "code": "iphncd9856",
+        "id": "16"
+    },
+    {
+        "nombre": "iMac Pro",
+        "categoria": "Mac",
+        "memoria": "2TB",
+        "stock": 4,
+        "precio": 2499.99,
+        "imagen": "https://gucodee-images.cdn.ifixit.com/igi/BjjvUUaCeRSFsXBa.medium",
+        "code": "iphncd9857",
+        "id": "17"
+    },
+    {
+        "nombre": "Mac Mini",
+        "categoria": "Mac",
+        "memoria": "256GB",
+        "stock": 10,
+        "precio": 699.99,
+        "imagen": "https://shiftdigital.com.ar/images/Apple%20Mac%20Mini%20Chip%20M1%20ssd%20512Gb%20MGNT3LEA%201.jpg",
+        "code": "iphncd9858",
+        "id": "18"
+    },
+    {
+        "nombre": "iPad 9th Gen",
+        "categoria": "iPad",
+        "memoria": "64GB",
+        "stock": 7,
+        "precio": 329.99,
+        "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/refurb-ipad-wifi-spacegray-2022?wcode=1144&hei=1144&fmt=jpeg&qlt=90&.v=1674684441752",
+        "code": "iphncd9859",
+        "id": "19"
+    },
+    {
+        "nombre": "iPad Air 4th Gen",
+        "categoria": "iPad",
+        "memoria": "128GB",
+        "stock": 9,
+        "precio": 499.99,
+        "imagen": "https://cdn-ipoint.waugi.com.ar/20993-large_default/109-inch-ipad-air-wi-fi-cellular-64gb-space-grey.jpg",
+        "code": "iphncd9860",
+        "id": "20"
+    },
+    {
+        "nombre": "iPad Pro 11",
+        "categoria": "iPad",
+        "memoria": "512GB",
+        "stock": 6,
+        "precio": 1099.99,
+        "imagen": "https://www.macstation.com.ar/img/productos/small/1879-ipad-pro-nuevo-ipad-pro-new-ipad-pro-ultima-generacion-silver-1t.jpg",
+        "code": "iphncd9861",
+        "id": "21"
+    },
+    {
+        "nombre": "Apple Watch Series 5",
+        "categoria": "Watch",
+        "memoria": "32GB",
+        "stock": 11,
+        "precio": 279.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_682406-MLA43951597832_102020-O.webp",
+        "code": "iphncd9862",
+        "id": "22"
+    },
+    {
+        "nombre": "Apple Watch Series 4",
+        "categoria": "Watch",
+        "memoria": "16GB",
+        "stock": 10,
+        "precio": 199.99,
+        "imagen": "https://www.apple.com/newsroom/images/product/watch/standard/apple-watch-series4_gold-milanese_09122018_carousel.jpg.large.jpg",
+        "code": "iphncd9863",
+        "id": "23"
+    },
+    {
+        "nombre": "Apple Watch Series 3",
+        "categoria": "Watch",
+        "memoria": "16GB",
+        "stock": 12,
+        "precio": 149.99,
+        "imagen": "https://m.media-amazon.com/images/I/51Z4RyHIziL._AC_UF894,1000_QL80_.jpg",
+        "code": "iphncd9864",
+        "id": "24"
+    },
+    {
+        "nombre": "iPhone 11",
+        "categoria": "iPhone",
+        "memoria": "64GB",
+        "stock": 10,
+        "precio": 699.99,
+        "imagen": "https://http2.mlstatic.com/D_Q_NP_960745-MLA46114990453_052021-O.webp",
+        "code": "iphncd9865",
+        "id": "25"
+    },
+    {
+        "nombre": "iPhone 11 Pro",
+        "categoria": "iPhone",
+        "memoria": "256GB",
+        "stock": 8,
+        "precio": 999.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_695863-MLA32646836777_102019-O.webp",
+        "code": "iphncd9866",
+        "id": "26"
+    },
+    {
+        "nombre": "iPhone XS",
+        "categoria": "iPhone",
+        "memoria": "64GB",
+        "stock": 6,
+        "precio": 899.99,
+        "imagen": "https://d28hi93gr697ol.cloudfront.net/9ef84dda-32dd-4016-7da3-1c0a824fffb4/img/Producto/525/d48e12a236acc80bb479b1c2545f9993-6317e5b41a7e2.jpg",
+        "code": "iphncd9867",
+        "id": "27"
+    },
+    {
+        "nombre": "MacBook Air M1",
+        "categoria": "Mac",
+        "memoria": "256GB",
+        "stock": 7,
+        "precio": 1199.99,
+        "imagen": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/macbook-air-space-gray-select-201810?wcode=904&hei=840&fmt=jpeg&qlt=90&.v=1664472289661",
+        "code": "iphncd9868",
+        "id": "28"
+    },
+    {
+        "nombre": "Mac Mini M1",
+        "categoria": "Mac",
+        "memoria": "512GB",
+        "stock": 10,
+        "precio": 899.99,
+        "imagen": "https://http2.mlstatic.com/D_NQ_NP_860027-MLA49940187495_052022-O.webp",
+        "code": "iphncd9869",
+        "id": "29"
+    },
+    {
+        "nombre": "iMac 27",
+        "categoria": "Mac",
+        "memoria": "1TB",
+        "stock": 9,
+        "precio": 1799.99,
+        "imagen": "https://www.notebookcheck.org/fileadmin/Notebooks/Apple/iMac_27_Mcode_2020/teaser1.png",
+        "code": "iphncd9870",
+        "id": "30"
+    },
+    {
+        "nombre": "iPad 8th Gen",
+        "categoria": "iPad",
+        "memoria": "128GB",
+        "stock": 11,
+        "precio": 429.99,
+        "imagen": "https://www.theioutlet.com/wp-content/uploads/2023/01/iPad-2019-Gold.png",
+        "code": "iphncd9871",
+        "id": "31"
+    },
+    {
+        "nombre": "iPad Pro 12.9",
+        "categoria": "iPad",
+        "memoria": "1TB",
+        "stock": 5,
+        "precio": 1499.99,
+        "imagen": "https://cdn-ipoint.waugi.com.ar/21868-medium_default/129-inch-ipad-pro-wi-fi-1tb-silver.jpg",
+        "code": "iphncd9872",
+        "id": "32"
+    }
+]
